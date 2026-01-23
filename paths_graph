@@ -1,0 +1,767 @@
+digraph paths {
+	graph [nodesep=1.0 ranksep=1.0 ratio=auto size="10,5" splines=compound]
+	0 [label="0 
+ Inicio
+[]" fillcolor=white fontsize=12 style=filled]
+	515 [label="Node 515
+[]" fillcolor=white fontsize=12 style=filled]
+	0 -> 515 [tooltip=""]
+	515 [label="Node 515
+[]" fillcolor=white fontsize=12 style=filled]
+	muerto_0 [label="Dead end
+[]" fillcolor=lightcoral fontsize=12 style=filled]
+	515 -> muerto_0 [tooltip=""]
+	12 [label="Branch point
+[]" fillcolor=white fontsize=12 style=filled]
+	559 [label="Node 559
+[]" fillcolor=white fontsize=12 style=filled]
+	12 -> 559 [tooltip=""]
+	559 [label="Node 559
+[]" fillcolor=white fontsize=12 style=filled]
+	295 [label="Node 295
+[]" fillcolor=white fontsize=12 style=filled]
+	559 -> 295 [tooltip=""]
+	295 [label="Node 295
+[]" fillcolor=white fontsize=12 style=filled]
+	10 [label="Minor node 10
+[]" fillcolor=white fontsize=12 style=filled]
+	295 -> 10 [tooltip=""]
+	10 [label="Minor node 10
+[]" fillcolor=white fontsize=12 style=filled]
+	17 [label="Minor node 17
+[]" fillcolor=white fontsize=12 style=filled]
+	10 -> 17 [tooltip=""]
+	17 [label="Minor node 17
+[]" fillcolor=white fontsize=12 style=filled]
+	527 [label="Node 527
+[]" fillcolor=white fontsize=12 style=filled]
+	17 -> 527 [tooltip=""]
+	527 [label="Node 527
+[]" fillcolor=white fontsize=12 style=filled]
+	389 [label="Node 389
+[]" fillcolor=white fontsize=12 style=filled]
+	527 -> 389 [tooltip=""]
+	389 [label="Node 389
+[]" fillcolor=white fontsize=12 style=filled]
+	30 [label="Node 30
+[]" fillcolor=white fontsize=12 style=filled]
+	389 -> 30 [tooltip=""]
+	30 [label="Node 30
+[]" fillcolor=white fontsize=12 style=filled]
+	452 [label="Node 452
+[]" fillcolor=white fontsize=12 style=filled]
+	30 -> 452 [tooltip=""]
+	452 [label="Node 452
+[]" fillcolor=white fontsize=12 style=filled]
+	292 [label="Node 292
+[]" fillcolor=white fontsize=12 style=filled]
+	452 -> 292 [tooltip=""]
+	292 [label="Node 292
+[]" fillcolor=white fontsize=12 style=filled]
+	387 [label="Node 387
+[]" fillcolor=white fontsize=12 style=filled]
+	292 -> 387 [tooltip=""]
+	387 [label="Node 387
+[]" fillcolor=white fontsize=12 style=filled]
+	muerto_1 [label="Dead end
+[]" fillcolor=lightcoral fontsize=12 style=filled]
+	387 -> muerto_1 [tooltip=""]
+	559 [label="Node 559
+[]" fillcolor=white fontsize=12 style=filled]
+	muerto_2 [label="Dead end
+[]" fillcolor=lightcoral fontsize=12 style=filled]
+	559 -> muerto_2 [tooltip=""]
+	10 [label="Minor node 10
+[]" fillcolor=white fontsize=12 style=filled]
+	216 [label="216
+[]" fillcolor=white fontsize=12 style=filled]
+	10 -> 216 [tooltip=""]
+	216 [label="216
+[]" fillcolor=white fontsize=12 style=filled]
+	573 [label="573
+[]" fillcolor=white fontsize=12 style=filled]
+	216 -> 573 [tooltip=""]
+	573 [label="573
+[]" fillcolor=white fontsize=12 style=filled]
+	619 [label="619
+[]" fillcolor=white fontsize=12 style=filled]
+	573 -> 619 [tooltip=""]
+	619 [label="619
+[]" fillcolor=white fontsize=12 style=filled]
+	47 [label="47
+[]" fillcolor=white fontsize=12 style=filled]
+	619 -> 47 [tooltip=""]
+	47 [label="47
+[]" fillcolor=white fontsize=12 style=filled]
+	318 [label="318
+[]" fillcolor=white fontsize=12 style=filled]
+	47 -> 318 [tooltip=""]
+	318 [label="318
+[]" fillcolor=white fontsize=12 style=filled]
+	15 [label="15
+[]" fillcolor=white fontsize=12 style=filled]
+	318 -> 15 [tooltip=""]
+	15 [label="15
+[]" fillcolor=white fontsize=12 style=filled]
+	460 [label="460
+[]" fillcolor=white fontsize=12 style=filled]
+	15 -> 460 [tooltip=""]
+	460 [label="460
+[]" fillcolor=white fontsize=12 style=filled]
+	dormir_3 [label="A Dormir
+[]" fillcolor=lightcoral fontsize=12 style=filled]
+	460 -> dormir_3 [tooltip=""]
+	"1_4" [label="1 
+ Inicio
+[]" fillcolor=lightblue fontsize=12 style=filled]
+	"75_4" [label="75 
+ plaza de cronos
+[]" fillcolor=lightblue fontsize=12 style=filled]
+	"1_4" -> "75_4" [tooltip=""]
+	"75_4" [label="75 
+ plaza de cronos
+[]" fillcolor=lightblue fontsize=12 style=filled]
+	100 [label="100 
+ centro de la ciudad
+[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+	"75_4" -> 100 [tooltip=""]
+	100 [label="100 
+ centro de la ciudad
+[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+	137 [label="Node 137
+[]" fillcolor=white fontsize=12 style=filled]
+	100 -> 137 [tooltip=""]
+	100 [label="100 
+ centro de la ciudad
+[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+	556 [label="Node 556
+[]" fillcolor=white fontsize=12 style=filled]
+	100 -> 556 [tooltip=""]
+	100 [label="100 
+ centro de la ciudad
+[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+	454 [label="Node 454
+[]" fillcolor=white fontsize=12 style=filled]
+	100 -> 454 [tooltip=""]
+	100 [label="100 
+ centro de la ciudad
+[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+	622 [label="Node 622
+[]" fillcolor=white fontsize=12 style=filled]
+	100 -> 622 [tooltip=""]
+	100 [label="100 
+ centro de la ciudad
+[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+	"24_8" [label="24 
+ salida
+[]" fillcolor=lightcoral fontsize=12 style=filled]
+	100 -> "24_8" [tooltip=""]
+	"24_8" [label="24 
+ salida
+[]" fillcolor=lightcoral fontsize=12 style=filled]
+	dormir_8 [label="A Dormir
+[]" fillcolor=lightcoral fontsize=12 style=filled]
+	"24_8" -> dormir_8 [tooltip=""]
+	"1_9" [label="1 
+ Inicio
+[]" fillcolor=lightblue fontsize=12 style=filled]
+	"75_9" [label="75 
+ plaza de cronos
+[]" fillcolor=lightblue fontsize=12 style=filled]
+	"1_9" -> "75_9" [tooltip=""]
+	"75_9" [label="75 
+ plaza de cronos
+[]" fillcolor=lightblue fontsize=12 style=filled]
+	100 [label="100 
+ centro de la ciudad
+[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+	"75_9" -> 100 [tooltip=""]
+	454 [label="Node 454
+[]" fillcolor=white fontsize=12 style=filled]
+	370 [label="Node 370
+[]" fillcolor=white fontsize=12 style=filled]
+	454 -> 370 [tooltip=""]
+	370 [label="Node 370
+[]" fillcolor=white fontsize=12 style=filled]
+	16 [label="Node 16
+[]" fillcolor=white fontsize=12 style=filled]
+	370 -> 16 [tooltip=""]
+	16 [label="Node 16
+[]" fillcolor=white fontsize=12 style=filled]
+	151 [label="Node 151
+[]" fillcolor=white fontsize=12 style=filled]
+	16 -> 151 [tooltip=""]
+	370 [label="Node 370
+[]" fillcolor=white fontsize=12 style=filled]
+	334 [label="Node 334
+[]" fillcolor=white fontsize=12 style=filled]
+	370 -> 334 [tooltip=""]
+	370 [label="Node 370
+[]" fillcolor=white fontsize=12 style=filled]
+	488 [label="Node 488
+[]" fillcolor=white fontsize=12 style=filled]
+	370 -> 488 [tooltip=""]
+	370 [label="Node 370
+[]" fillcolor=white fontsize=12 style=filled]
+	306 [label="Node 306
+[]" fillcolor=white fontsize=12 style=filled]
+	370 -> 306 [tooltip=""]
+	370 [label="Node 370
+[]" fillcolor=white fontsize=12 style=filled]
+	29 [label="Node 29
+[]" fillcolor=white fontsize=12 style=filled]
+	370 -> 29 [tooltip=""]
+	16 [label="Node 16
+[]" fillcolor=white fontsize=12 style=filled]
+	36 [label="Node 36
+[]" fillcolor=white fontsize=12 style=filled]
+	16 -> 36 [tooltip=""]
+	370 [label="Node 370
+[]" fillcolor=white fontsize=12 style=filled]
+	571 [label="Node 571
+[]" fillcolor=white fontsize=12 style=filled]
+	370 -> 571 [tooltip=""]
+	370 [label="Node 370
+[]" fillcolor=white fontsize=12 style=filled]
+	359 [label="Node 359
+[]" fillcolor=white fontsize=12 style=filled]
+	370 -> 359 [tooltip=""]
+	359 [label="Node 359
+[]" fillcolor=white fontsize=12 style=filled]
+	407 [label="Node 407
+[]" fillcolor=white fontsize=12 style=filled]
+	359 -> 407 [tooltip=""]
+	370 [label="Node 370
+[]" fillcolor=white fontsize=12 style=filled]
+	388 [label="Node 388
+[]" fillcolor=white fontsize=12 style=filled]
+	370 -> 388 [tooltip=""]
+	370 [label="Node 370
+[]" fillcolor=white fontsize=12 style=filled]
+	183 [label="Node 183
+[]" fillcolor=white fontsize=12 style=filled]
+	370 -> 183 [tooltip=""]
+	16 [label="Node 16
+[]" fillcolor=white fontsize=12 style=filled]
+	543 [label="Node 543
+[]" fillcolor=white fontsize=12 style=filled]
+	16 -> 543 [tooltip=""]
+	370 [label="Node 370
+[]" fillcolor=white fontsize=12 style=filled]
+	100 [label="100 
+ centro de la ciudad
+[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+	370 -> 100 [tooltip=""]
+	100 [label="100 
+ centro de la ciudad
+[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+	233 [label="Node 233
+[]" fillcolor=white fontsize=12 style=filled]
+	100 -> 233 [tooltip=""]
+	233 [label="Node 233
+[]" fillcolor=white fontsize=12 style=filled]
+	380 [label="Node 380
+[]" fillcolor=white fontsize=12 style=filled]
+	233 -> 380 [tooltip=""]
+	380 [label="Node 380
+[]" fillcolor=white fontsize=12 style=filled]
+	98 [label="Node 98
+[]" fillcolor=white fontsize=12 style=filled]
+	380 -> 98 [tooltip=""]
+	233 [label="Node 233
+[]" fillcolor=white fontsize=12 style=filled]
+	510 [label="Node 510
+[]" fillcolor=white fontsize=12 style=filled]
+	233 -> 510 [tooltip=""]
+	233 [label="Node 233
+[]" fillcolor=white fontsize=12 style=filled]
+	100 [label="100 
+ centro de la ciudad
+[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+	233 -> 100 [tooltip=""]
+	100 [label="100 
+ centro de la ciudad
+[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+	263 [label="Node 263
+[]" fillcolor=white fontsize=12 style=filled]
+	100 -> 263 [tooltip=""]
+	100 [label="100 
+ centro de la ciudad
+[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+	328 [label="Node 328
+[]" fillcolor=white fontsize=12 style=filled]
+	100 -> 328 [tooltip=""]
+	100 [label="100 
+ centro de la ciudad
+[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+	553 [label="Node 553
+[]" fillcolor=white fontsize=12 style=filled]
+	100 -> 553 [tooltip=""]
+	553 [label="Node 553
+[]" fillcolor=white fontsize=12 style=filled]
+	612 [label="Node 612
+[]" fillcolor=white fontsize=12 style=filled]
+	553 -> 612 [tooltip=""]
+	612 [label="Node 612
+[]" fillcolor=white fontsize=12 style=filled]
+	233 [label="Node 233
+[]" fillcolor=white fontsize=12 style=filled]
+	612 -> 233 [tooltip=""]
+	380 [label="Node 380
+[]" fillcolor=white fontsize=12 style=filled]
+	462 [label="462
+[]" fillcolor=white fontsize=12 style=filled]
+	380 -> 462 [tooltip=""]
+	100 [label="100 
+ centro de la ciudad
+[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+	57 [label="Node 57
+[]" fillcolor=white fontsize=12 style=filled]
+	100 -> 57 [tooltip=""]
+	57 [label="Node 57
+[]" fillcolor=white fontsize=12 style=filled]
+	536 [label="Node 536
+[]" fillcolor=white fontsize=12 style=filled]
+	57 -> 536 [tooltip=""]
+	536 [label="Node 536
+[]" fillcolor=white fontsize=12 style=filled]
+	147 [label="Node 147
+[]" fillcolor=white fontsize=12 style=filled]
+	536 -> 147 [tooltip=""]
+	100 [label="100 
+ centro de la ciudad
+[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+	536 [label="Node 536
+[]" fillcolor=white fontsize=12 style=filled]
+	100 -> 536 [tooltip=""]
+	536 [label="Node 536
+[]" fillcolor=white fontsize=12 style=filled]
+	115 [label="Node 115
+[]" fillcolor=white fontsize=12 style=filled]
+	536 -> 115 [tooltip=""]
+	"1_31" [label="1 
+ Inicio
+[]" fillcolor=lightblue fontsize=12 style=filled]
+	"75_31" [label="75 
+ plaza de cronos
+[]" fillcolor=lightblue fontsize=12 style=filled]
+	"1_31" -> "75_31" [tooltip=""]
+	"75_31" [label="75 
+ plaza de cronos
+[]" fillcolor=lightblue fontsize=12 style=filled]
+	300 [label="300 
+ distrito sur
+[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+	"75_31" -> 300 [tooltip=""]
+	300 [label="300 
+ distrito sur
+[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+	620 [label="Node 620
+[]" fillcolor=white fontsize=12 style=filled]
+	300 -> 620 [tooltip=""]
+	620 [label="Node 620
+[]" fillcolor=white fontsize=12 style=filled]
+	598 [label="Node 598
+[]" fillcolor=white fontsize=12 style=filled]
+	620 -> 598 [tooltip=""]
+	598 [label="Node 598
+[]" fillcolor=white fontsize=12 style=filled]
+	594 [label="Node 594
+[]" fillcolor=white fontsize=12 style=filled]
+	598 -> 594 [tooltip=""]
+	594 [label="Node 594
+[]" fillcolor=white fontsize=12 style=filled]
+	340 [label="Node 340
+[]" fillcolor=white fontsize=12 style=filled]
+	594 -> 340 [tooltip=""]
+	340 [label="Node 340
+[]" fillcolor=white fontsize=12 style=filled]
+	285 [label="Node 285
+[]" fillcolor=white fontsize=12 style=filled]
+	340 -> 285 [tooltip=""]
+	620 [label="Node 620
+[]" fillcolor=white fontsize=12 style=filled]
+	300 [label="300 
+ distrito sur
+[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+	620 -> 300 [tooltip=""]
+	300 [label="300 
+ distrito sur
+[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+	162 [label="Node 162
+[]" fillcolor=white fontsize=12 style=filled]
+	300 -> 162 [tooltip=""]
+	162 [label="Node 162
+[]" fillcolor=white fontsize=12 style=filled]
+	127 [label="Node 127
+[]" fillcolor=white fontsize=12 style=filled]
+	162 -> 127 [tooltip=""]
+	127 [label="Node 127
+[]" fillcolor=white fontsize=12 style=filled]
+	46 [label="Node 46
+[]" fillcolor=white fontsize=12 style=filled]
+	127 -> 46 [tooltip=""]
+	300 [label="300 
+ distrito sur
+[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+	112 [label="Node 112
+[]" fillcolor=white fontsize=12 style=filled]
+	300 -> 112 [tooltip=""]
+	112 [label="Node 112
+[]" fillcolor=white fontsize=12 style=filled]
+	443 [label="443
+[]" fillcolor=white fontsize=12 style=filled]
+	112 -> 443 [tooltip=""]
+	112 [label="Node 112
+[]" fillcolor=white fontsize=12 style=filled]
+	300 [label="300 
+ distrito sur
+[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+	112 -> 300 [tooltip=""]
+	300 [label="300 
+ distrito sur
+[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+	497 [label="Node 497
+[]" fillcolor=white fontsize=12 style=filled]
+	300 -> 497 [tooltip=""]
+	497 [label="Node 497
+[]" fillcolor=white fontsize=12 style=filled]
+	275 [label="Node 275
+[]" fillcolor=white fontsize=12 style=filled]
+	497 -> 275 [tooltip=""]
+	275 [label="Node 275
+[]" fillcolor=white fontsize=12 style=filled]
+	130 [label="Node 130
+[]" fillcolor=white fontsize=12 style=filled]
+	275 -> 130 [tooltip=""]
+	275 [label="Node 275
+[]" fillcolor=white fontsize=12 style=filled]
+	300 [label="300 
+ distrito sur
+[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+	275 -> 300 [tooltip=""]
+	300 [label="300 
+ distrito sur
+[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+	298 [label="Node 298
+[]" fillcolor=white fontsize=12 style=filled]
+	300 -> 298 [tooltip=""]
+	300 [label="300 
+ distrito sur
+[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+	220 [label="Node 220
+[]" fillcolor=white fontsize=12 style=filled]
+	300 -> 220 [tooltip=""]
+	300 [label="300 
+ distrito sur
+[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+	636 [label="Node 636
+[]" fillcolor=white fontsize=12 style=filled]
+	300 -> 636 [tooltip=""]
+	300 [label="300 
+ distrito sur
+[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+	545 [label="Node 545
+[]" fillcolor=white fontsize=12 style=filled]
+	300 -> 545 [tooltip=""]
+	497 [label="Node 497
+[]" fillcolor=white fontsize=12 style=filled]
+	245 [label="Node 245
+[]" fillcolor=white fontsize=12 style=filled]
+	497 -> 245 [tooltip=""]
+	162 [label="Node 162
+[]" fillcolor=white fontsize=12 style=filled]
+	154 [label="Node 154
+[]" fillcolor=white fontsize=12 style=filled]
+	162 -> 154 [tooltip=""]
+	300 [label="300 
+ distrito sur
+[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+	"24_43" [label="24 
+ salida
+[]" fillcolor=lightcoral fontsize=12 style=filled]
+	300 -> "24_43" [tooltip=""]
+	"24_43" [label="24 
+ salida
+[]" fillcolor=lightcoral fontsize=12 style=filled]
+	dormir_43 [label="A Dormir
+[]" fillcolor=lightcoral fontsize=12 style=filled]
+	"24_43" -> dormir_43 [tooltip=""]
+	"1_44" [label="1 
+ Inicio
+[]" fillcolor=lightblue fontsize=12 style=filled]
+	"75_44" [label="75 
+ plaza de cronos
+[]" fillcolor=lightblue fontsize=12 style=filled]
+	"1_44" -> "75_44" [tooltip=""]
+	"75_44" [label="75 
+ plaza de cronos
+[]" fillcolor=lightblue fontsize=12 style=filled]
+	150 [label="150 
+ arrabales occidente
+[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+	"75_44" -> 150 [tooltip=""]
+	150 [label="150 
+ arrabales occidente
+[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+	62 [label="Node 62
+[]" fillcolor=white fontsize=12 style=filled]
+	150 -> 62 [tooltip=""]
+	62 [label="Node 62
+[]" fillcolor=white fontsize=12 style=filled]
+	120 [label="Node 120
+[]" fillcolor=white fontsize=12 style=filled]
+	62 -> 120 [tooltip=""]
+	120 [label="Node 120
+[]" fillcolor=white fontsize=12 style=filled]
+	333 [label="Node 333
+[]" fillcolor=white fontsize=12 style=filled]
+	120 -> 333 [tooltip=""]
+	333 [label="Node 333
+[]" fillcolor=white fontsize=12 style=filled]
+	402 [label="Node 402
+[]" fillcolor=white fontsize=12 style=filled]
+	333 -> 402 [tooltip=""]
+	120 [label="Node 120
+[]" fillcolor=white fontsize=12 style=filled]
+	396 [label="Node 396
+[]" fillcolor=white fontsize=12 style=filled]
+	120 -> 396 [tooltip=""]
+	120 [label="Node 120
+[]" fillcolor=white fontsize=12 style=filled]
+	150 [label="150 
+ arrabales occidente
+[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+	120 -> 150 [tooltip=""]
+	333 [label="Node 333
+[]" fillcolor=white fontsize=12 style=filled]
+	352 [label="Node 352
+[]" fillcolor=white fontsize=12 style=filled]
+	333 -> 352 [tooltip=""]
+	333 [label="Node 333
+[]" fillcolor=white fontsize=12 style=filled]
+	584 [label="Node 584
+[]" fillcolor=white fontsize=12 style=filled]
+	333 -> 584 [tooltip=""]
+	150 [label="150 
+ arrabales occidente
+[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+	442 [label="Node 442
+[]" fillcolor=white fontsize=12 style=filled]
+	150 -> 442 [tooltip=""]
+	150 [label="150 
+ arrabales occidente
+[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+	307 [label="Node 307
+[]" fillcolor=white fontsize=12 style=filled]
+	150 -> 307 [tooltip=""]
+	307 [label="Node 307
+[]" fillcolor=white fontsize=12 style=filled]
+	66 [label="Node 66
+[]" fillcolor=white fontsize=12 style=filled]
+	307 -> 66 [tooltip=""]
+	66 [label="Node 66
+[]" fillcolor=white fontsize=12 style=filled]
+	105 [label="Node 105
+[]" fillcolor=white fontsize=12 style=filled]
+	66 -> 105 [tooltip=""]
+	66 [label="Node 66
+[]" fillcolor=white fontsize=12 style=filled]
+	364 [label="Node 364
+[]" fillcolor=white fontsize=12 style=filled]
+	66 -> 364 [tooltip=""]
+	66 [label="Node 66
+[]" fillcolor=white fontsize=12 style=filled]
+	555 [label="Node 555
+[]" fillcolor=white fontsize=12 style=filled]
+	66 -> 555 [tooltip=""]
+	555 [label="Node 555
+[]" fillcolor=white fontsize=12 style=filled]
+	223 [label="Node 223
+[]" fillcolor=white fontsize=12 style=filled]
+	555 -> 223 [tooltip=""]
+	223 [label="Node 223
+[]" fillcolor=white fontsize=12 style=filled]
+	315 [label="Node 315
+[]" fillcolor=white fontsize=12 style=filled]
+	223 -> 315 [tooltip=""]
+	66 [label="Node 66
+[]" fillcolor=white fontsize=12 style=filled]
+	110 [label="Node 110
+[]" fillcolor=white fontsize=12 style=filled]
+	66 -> 110 [tooltip=""]
+	110 [label="Node 110
+[]" fillcolor=white fontsize=12 style=filled]
+	232 [label="Node 232
+[]" fillcolor=white fontsize=12 style=filled]
+	110 -> 232 [tooltip=""]
+	66 [label="Node 66
+[]" fillcolor=white fontsize=12 style=filled]
+	150 [label="150 
+ arrabales occidente
+[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+	66 -> 150 [tooltip=""]
+	150 [label="150 
+ arrabales occidente
+[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+	184 [label="Node 184
+[]" fillcolor=white fontsize=12 style=filled]
+	150 -> 184 [tooltip=""]
+	150 [label="150 
+ arrabales occidente
+[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+	"24_56" [label="24 
+ salida
+[]" fillcolor=lightcoral fontsize=12 style=filled]
+	150 -> "24_56" [tooltip=""]
+	"24_56" [label="24 
+ salida
+[]" fillcolor=lightcoral fontsize=12 style=filled]
+	dormir_56 [label="A Dormir
+[]" fillcolor=lightcoral fontsize=12 style=filled]
+	"24_56" -> dormir_56 [tooltip=""]
+	"1_57" [label="1 
+ Inicio
+[]" fillcolor=lightblue fontsize=12 style=filled]
+	"75_57" [label="75 
+ plaza de cronos
+[]" fillcolor=lightblue fontsize=12 style=filled]
+	"1_57" -> "75_57" [tooltip=""]
+	"75_57" [label="75 
+ plaza de cronos
+[]" fillcolor=lightblue fontsize=12 style=filled]
+	150 [label="150 
+ arrabales occidente
+[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+	"75_57" -> 150 [tooltip=""]
+	307 [label="Node 307
+[]" fillcolor=white fontsize=12 style=filled]
+	244 [label="244
+[]" fillcolor=white fontsize=12 style=filled]
+	307 -> 244 [tooltip=""]
+	244 [label="244
+[]" fillcolor=white fontsize=12 style=filled]
+	413 [label="413
+[]" fillcolor=white fontsize=12 style=filled]
+	244 -> 413 [tooltip=""]
+	413 [label="413
+[]" fillcolor=white fontsize=12 style=filled]
+	66 [label="Node 66
+[]" fillcolor=white fontsize=12 style=filled]
+	413 -> 66 [tooltip=""]
+	555 [label="Node 555
+[]" fillcolor=white fontsize=12 style=filled]
+	476 [label="476
+[]" fillcolor=white fontsize=12 style=filled]
+	555 -> 476 [tooltip=""]
+	110 [label="Node 110
+[]" fillcolor=white fontsize=12 style=filled]
+	270 [label="270
+[]" fillcolor=white fontsize=12 style=filled]
+	110 -> 270 [tooltip=""]
+	270 [label="270
+[]" fillcolor=white fontsize=12 style=filled]
+	637 [label="637
+[]" fillcolor=white fontsize=12 style=filled]
+	270 -> 637 [tooltip=""]
+	110 [label="Node 110
+[]" fillcolor=white fontsize=12 style=filled]
+	76 [label="76
+[]" fillcolor=white fontsize=12 style=filled]
+	110 -> 76 [tooltip=""]
+	110 [label="Node 110
+[]" fillcolor=white fontsize=12 style=filled]
+	582 [label="582
+[]" fillcolor=white fontsize=12 style=filled]
+	110 -> 582 [tooltip=""]
+	150 [label="150 
+ arrabales occidente
+[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+	498 [label="Node 498
+[]" fillcolor=white fontsize=12 style=filled]
+	150 -> 498 [tooltip=""]
+	150 [label="150 
+ arrabales occidente
+[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+	200 [label="200 
+ distrito norte
+[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+	150 -> 200 [tooltip=""]
+	200 [label="200 
+ distrito norte
+[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+	538 [label="Node 538
+[]" fillcolor=white fontsize=12 style=filled]
+	200 -> 538 [tooltip=""]
+	200 [label="200 
+ distrito norte
+[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+	399 [label="Node 399
+[]" fillcolor=white fontsize=12 style=filled]
+	200 -> 399 [tooltip=""]
+	399 [label="Node 399
+[]" fillcolor=white fontsize=12 style=filled]
+	607 [label="Node 607
+[]" fillcolor=white fontsize=12 style=filled]
+	399 -> 607 [tooltip=""]
+	607 [label="Node 607
+[]" fillcolor=white fontsize=12 style=filled]
+	534 [label="Node 534
+[]" fillcolor=white fontsize=12 style=filled]
+	607 -> 534 [tooltip=""]
+	200 [label="200 
+ distrito norte
+[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+	525 [label="Node 525
+[]" fillcolor=white fontsize=12 style=filled]
+	200 -> 525 [tooltip=""]
+	525 [label="Node 525
+[]" fillcolor=white fontsize=12 style=filled]
+	374 [label="Node 374
+[]" fillcolor=white fontsize=12 style=filled]
+	525 -> 374 [tooltip=""]
+	200 [label="200 
+ distrito norte
+[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+	550 [label="Node 550
+[]" fillcolor=white fontsize=12 style=filled]
+	200 -> 550 [tooltip=""]
+	200 [label="200 
+ distrito norte
+[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+	133 [label="Node 133
+[]" fillcolor=white fontsize=12 style=filled]
+	200 -> 133 [tooltip=""]
+	133 [label="Node 133
+[]" fillcolor=white fontsize=12 style=filled]
+	156 [label="Node 156
+[]" fillcolor=white fontsize=12 style=filled]
+	133 -> 156 [tooltip=""]
+	200 [label="200 
+ distrito norte
+[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+	"24_70" [label="24 
+ salida
+[]" fillcolor=lightcoral fontsize=12 style=filled]
+	200 -> "24_70" [tooltip=""]
+	"24_70" [label="24 
+ salida
+[]" fillcolor=lightcoral fontsize=12 style=filled]
+	dormir_70 [label="A Dormir
+[]" fillcolor=lightcoral fontsize=12 style=filled]
+	"24_70" -> dormir_70 [tooltip=""]
+	"1_71" [label="1 
+ Inicio
+[]" fillcolor=lightblue fontsize=12 style=filled]
+	"75_71" [label="75 
+ plaza de cronos
+[]" fillcolor=lightblue fontsize=12 style=filled]
+	"1_71" -> "75_71" [tooltip=""]
+	"75_71" [label="75 
+ plaza de cronos
+[]" fillcolor=lightblue fontsize=12 style=filled]
+	200 [label="200 
+ distrito norte
+[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+	"75_71" -> 200 [tooltip=""]
+}

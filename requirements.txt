@@ -1,0 +1,7 @@
+#pyvis>=0.3.2
+networkx>=3.0
+matplotlib>=3.7
+
+plotly>=5.0.0
+graphviz
+

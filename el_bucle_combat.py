@@ -92,22 +92,32 @@ me = {
     "life_points": 1,
     "body_points": 3,
     "mind_points": 4,
-    "hand_weapon_points": 0,
+    "hand_weapon_points": 1,
     "long_distance_weapon_points": 0,
-    "use_hand_weapon": False,
+    "use_hand_weapon": True,
     "use_long_distance_weapon": False
 }
 
-opponent = {
-    "life_points": 1,
+opponent_1 = {
+    "life_points": 2,
+    "body_points": 4,
+    "mind_points": 0,
+    "hand_weapon_points": 1,
+    "long_distance_weapon_points": 0,
+    "use_hand_weapon": True,
+    "use_long_distance_weapon": False
+}
+
+opponent_2 = {
+    "life_points": 0,
     "body_points": 2,
     "mind_points": 0,
-    "hand_weapon_points": 0,
+    "hand_weapon_points": 1,
     "long_distance_weapon_points": 0,
-    "use_hand_weapon": False,
+    "use_hand_weapon": True,
     "use_long_distance_weapon": False
 }
-
+opponent = opponent_1
 # hand_to_hand or gun_fight
 fight("hand_to_hand", me, opponent)\
 
