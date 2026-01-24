@@ -3,7 +3,8 @@ from passing_days import *
 
 # All days from your module
 days = [
-    dia_1, dia_2, dia_3, dia_4, dia_5,
+    #dia_1, dia_2, dia_3, dia_4, 
+    dia_5,
     dia_6, dia_7, dia_8, dia_9, dia_10
 ]
 
@@ -46,14 +47,27 @@ PRINCIPAL_NODES = {"100", "150", "200", "300"}
 
 def get_node_style(label):
     """Return Graphviz style for a node based on its label."""
+    style = {
+        "fillcolor": "white",
+        "style": "filled",
+        "fontsize": "36",  # bigger font for all normal nodes
+        "width": "2",
+        "height": "1.2"
+    }
+
     if label in DUPLICATE_NODES:
-        return {"fillcolor": "lightblue", "style": "filled", "fontsize": "12"}
+        style.update({"fillcolor": "lightblue"})
     elif label in TERMINALS:
-        return {"fillcolor": "lightcoral", "style": "filled", "fontsize": "12"}
+        style.update({"fillcolor": "lightcoral"})
     elif label in PRINCIPAL_NODES:
-        return {"fillcolor": "lightyellow", "style": "filled", "fontsize": "36", "width": "1.5", "height": "1.5"}
-    else:
-        return {"fillcolor": "white", "style": "filled", "fontsize": "12"}
+        style.update({
+            "fillcolor": "lightyellow",
+            "fontsize": "46",  # extra big for principal nodes
+            "width": "2.5",
+            "height": "2.0"
+        })
+
+    return style
 
 def make_internal_name(node, path_index):
     """Generate a unique internal node name for duplicable or terminal nodes."""
@@ -87,11 +101,23 @@ def build_graph(paths):
         "paths",
         format="svg",
         graph_attr={
-            "size": "10,5",     # ancho 20in, alto 10in, "!" fuerza exacto tamaño
-            "ratio": "auto",      # deja que Graphviz ajuste la relación de aspecto
-            "splines": "compound",   # opcional, para líneas más claras
-            "nodesep": "1.0",     # separación entre nodos
-            "ranksep": "1.0"      # separación entre niveles
+            "size": "20,10",          # make the whole graph bigger
+            "ratio": "auto",
+            "splines": "compound",
+            "nodesep": "1.5",         # more space between nodes
+            "ranksep": "2.5",         # more space between ranks
+            "fontsize": "36",         # global font size for graph labels
+            "fontname": "Arial"
+        },
+        node_attr={
+            "fontsize": "24",          # bigger node labels
+            "width": "2",              # wider nodes
+            "height": "1.2",           # taller nodes
+            "shape": "doubleoctagon"
+        },
+        edge_attr={
+            "fontsize": "20",          # bigger edge labels
+            "penwidth": "3"
         }
     )
     
@@ -99,13 +125,11 @@ def build_graph(paths):
     seen_sequences = set()
 
     for path_index, path in enumerate(paths):
-        # Convert path to tuple for hashing
         path_tuple = tuple(path)
         if path_tuple in seen_sequences:
-            continue  # skip duplicate sequences
+            continue
         seen_sequences.add(path_tuple)
 
-        # Generate internal names
         path_copy = [(make_internal_name(node, path_index), node) for node in path]
         add_edges(graph, path_copy, seen_edges)
 

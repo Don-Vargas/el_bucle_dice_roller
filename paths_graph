@@ -1,767 +1,702 @@
 digraph paths {
-	graph [nodesep=1.0 ranksep=1.0 ratio=auto size="10,5" splines=compound]
-	0 [label="0 
+	graph [fontname=Arial fontsize=36 nodesep=1.5 ranksep=2.5 ratio=auto size="20,10" splines=compound]
+	node [fontsize=24 height=1.2 shape=doubleoctagon width=2]
+	edge [fontsize=20 penwidth=3]
+	"1_0" [label="1 
  Inicio
-[]" fillcolor=white fontsize=12 style=filled]
-	515 [label="Node 515
-[]" fillcolor=white fontsize=12 style=filled]
-	0 -> 515 [tooltip=""]
-	515 [label="Node 515
-[]" fillcolor=white fontsize=12 style=filled]
-	muerto_0 [label="Dead end
-[]" fillcolor=lightcoral fontsize=12 style=filled]
-	515 -> muerto_0 [tooltip=""]
-	12 [label="Branch point
-[]" fillcolor=white fontsize=12 style=filled]
-	559 [label="Node 559
-[]" fillcolor=white fontsize=12 style=filled]
-	12 -> 559 [tooltip=""]
-	559 [label="Node 559
-[]" fillcolor=white fontsize=12 style=filled]
-	295 [label="Node 295
-[]" fillcolor=white fontsize=12 style=filled]
-	559 -> 295 [tooltip=""]
-	295 [label="Node 295
-[]" fillcolor=white fontsize=12 style=filled]
-	10 [label="Minor node 10
-[]" fillcolor=white fontsize=12 style=filled]
-	295 -> 10 [tooltip=""]
-	10 [label="Minor node 10
-[]" fillcolor=white fontsize=12 style=filled]
-	17 [label="Minor node 17
-[]" fillcolor=white fontsize=12 style=filled]
-	10 -> 17 [tooltip=""]
-	17 [label="Minor node 17
-[]" fillcolor=white fontsize=12 style=filled]
-	527 [label="Node 527
-[]" fillcolor=white fontsize=12 style=filled]
-	17 -> 527 [tooltip=""]
-	527 [label="Node 527
-[]" fillcolor=white fontsize=12 style=filled]
-	389 [label="Node 389
-[]" fillcolor=white fontsize=12 style=filled]
-	527 -> 389 [tooltip=""]
-	389 [label="Node 389
-[]" fillcolor=white fontsize=12 style=filled]
-	30 [label="Node 30
-[]" fillcolor=white fontsize=12 style=filled]
-	389 -> 30 [tooltip=""]
-	30 [label="Node 30
-[]" fillcolor=white fontsize=12 style=filled]
-	452 [label="Node 452
-[]" fillcolor=white fontsize=12 style=filled]
-	30 -> 452 [tooltip=""]
-	452 [label="Node 452
-[]" fillcolor=white fontsize=12 style=filled]
-	292 [label="Node 292
-[]" fillcolor=white fontsize=12 style=filled]
-	452 -> 292 [tooltip=""]
-	292 [label="Node 292
-[]" fillcolor=white fontsize=12 style=filled]
-	387 [label="Node 387
-[]" fillcolor=white fontsize=12 style=filled]
-	292 -> 387 [tooltip=""]
-	387 [label="Node 387
-[]" fillcolor=white fontsize=12 style=filled]
-	muerto_1 [label="Dead end
-[]" fillcolor=lightcoral fontsize=12 style=filled]
-	387 -> muerto_1 [tooltip=""]
-	559 [label="Node 559
-[]" fillcolor=white fontsize=12 style=filled]
-	muerto_2 [label="Dead end
-[]" fillcolor=lightcoral fontsize=12 style=filled]
-	559 -> muerto_2 [tooltip=""]
-	10 [label="Minor node 10
-[]" fillcolor=white fontsize=12 style=filled]
-	216 [label="216
-[]" fillcolor=white fontsize=12 style=filled]
-	10 -> 216 [tooltip=""]
-	216 [label="216
-[]" fillcolor=white fontsize=12 style=filled]
-	573 [label="573
-[]" fillcolor=white fontsize=12 style=filled]
-	216 -> 573 [tooltip=""]
-	573 [label="573
-[]" fillcolor=white fontsize=12 style=filled]
-	619 [label="619
-[]" fillcolor=white fontsize=12 style=filled]
-	573 -> 619 [tooltip=""]
-	619 [label="619
-[]" fillcolor=white fontsize=12 style=filled]
-	47 [label="47
-[]" fillcolor=white fontsize=12 style=filled]
-	619 -> 47 [tooltip=""]
-	47 [label="47
-[]" fillcolor=white fontsize=12 style=filled]
-	318 [label="318
-[]" fillcolor=white fontsize=12 style=filled]
-	47 -> 318 [tooltip=""]
-	318 [label="318
-[]" fillcolor=white fontsize=12 style=filled]
-	15 [label="15
-[]" fillcolor=white fontsize=12 style=filled]
-	318 -> 15 [tooltip=""]
-	15 [label="15
-[]" fillcolor=white fontsize=12 style=filled]
-	460 [label="460
-[]" fillcolor=white fontsize=12 style=filled]
-	15 -> 460 [tooltip=""]
-	460 [label="460
-[]" fillcolor=white fontsize=12 style=filled]
-	dormir_3 [label="A Dormir
-[]" fillcolor=lightcoral fontsize=12 style=filled]
-	460 -> dormir_3 [tooltip=""]
-	"1_4" [label="1 
- Inicio
-[]" fillcolor=lightblue fontsize=12 style=filled]
-	"75_4" [label="75 
+[]" fillcolor=lightblue fontsize=36 height=1.2 style=filled width=2]
+	"75_0" [label="75 
  plaza de cronos
-[]" fillcolor=lightblue fontsize=12 style=filled]
-	"1_4" -> "75_4" [tooltip=""]
-	"75_4" [label="75 
+[]" fillcolor=lightblue fontsize=36 height=1.2 style=filled width=2]
+	"1_0" -> "75_0" [tooltip=""]
+	"75_0" [label="75 
  plaza de cronos
-[]" fillcolor=lightblue fontsize=12 style=filled]
+[]" fillcolor=lightblue fontsize=36 height=1.2 style=filled width=2]
 	100 [label="100 
- centro de la ciudad
-[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
-	"75_4" -> 100 [tooltip=""]
+ Centro de la ciudad
+[]" fillcolor=lightyellow fontsize=46 height=2.0 style=filled width=2.5]
+	"75_0" -> 100 [tooltip=""]
 	100 [label="100 
- centro de la ciudad
-[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+ Centro de la ciudad
+[]" fillcolor=lightyellow fontsize=46 height=2.0 style=filled width=2.5]
 	137 [label="Node 137
-[]" fillcolor=white fontsize=12 style=filled]
+[Intuición]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	100 -> 137 [tooltip=""]
 	100 [label="100 
- centro de la ciudad
-[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
-	556 [label="Node 556
-[]" fillcolor=white fontsize=12 style=filled]
+ Centro de la ciudad
+[]" fillcolor=lightyellow fontsize=46 height=2.0 style=filled width=2.5]
+	556 [label="556
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	100 -> 556 [tooltip=""]
 	100 [label="100 
- centro de la ciudad
-[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
-	454 [label="Node 454
-[]" fillcolor=white fontsize=12 style=filled]
+ Centro de la ciudad
+[]" fillcolor=lightyellow fontsize=46 height=2.0 style=filled width=2.5]
+	454 [label="454
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	100 -> 454 [tooltip=""]
 	100 [label="100 
- centro de la ciudad
-[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
-	622 [label="Node 622
-[]" fillcolor=white fontsize=12 style=filled]
+ Centro de la ciudad
+[]" fillcolor=lightyellow fontsize=46 height=2.0 style=filled width=2.5]
+	622 [label="622
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	100 -> 622 [tooltip=""]
 	100 [label="100 
- centro de la ciudad
-[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
-	"24_8" [label="24 
+ Centro de la ciudad
+[]" fillcolor=lightyellow fontsize=46 height=2.0 style=filled width=2.5]
+	"24_4" [label="24 
  salida
-[]" fillcolor=lightcoral fontsize=12 style=filled]
-	100 -> "24_8" [tooltip=""]
-	"24_8" [label="24 
+[]" fillcolor=lightcoral fontsize=36 height=1.2 style=filled width=2]
+	100 -> "24_4" [tooltip=""]
+	"24_4" [label="24 
  salida
-[]" fillcolor=lightcoral fontsize=12 style=filled]
-	dormir_8 [label="A Dormir
-[]" fillcolor=lightcoral fontsize=12 style=filled]
-	"24_8" -> dormir_8 [tooltip=""]
-	"1_9" [label="1 
+[]" fillcolor=lightcoral fontsize=36 height=1.2 style=filled width=2]
+	dormir_4 [label="A Dormir
+[]" fillcolor=lightcoral fontsize=36 height=1.2 style=filled width=2]
+	"24_4" -> dormir_4 [tooltip=""]
+	"1_5" [label="1 
  Inicio
-[]" fillcolor=lightblue fontsize=12 style=filled]
-	"75_9" [label="75 
+[]" fillcolor=lightblue fontsize=36 height=1.2 style=filled width=2]
+	"75_5" [label="75 
  plaza de cronos
-[]" fillcolor=lightblue fontsize=12 style=filled]
-	"1_9" -> "75_9" [tooltip=""]
-	"75_9" [label="75 
+[]" fillcolor=lightblue fontsize=36 height=1.2 style=filled width=2]
+	"1_5" -> "75_5" [tooltip=""]
+	"75_5" [label="75 
  plaza de cronos
-[]" fillcolor=lightblue fontsize=12 style=filled]
+[]" fillcolor=lightblue fontsize=36 height=1.2 style=filled width=2]
 	100 [label="100 
- centro de la ciudad
-[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
-	"75_9" -> 100 [tooltip=""]
-	454 [label="Node 454
-[]" fillcolor=white fontsize=12 style=filled]
-	370 [label="Node 370
-[]" fillcolor=white fontsize=12 style=filled]
+ Centro de la ciudad
+[]" fillcolor=lightyellow fontsize=46 height=2.0 style=filled width=2.5]
+	"75_5" -> 100 [tooltip=""]
+	454 [label="454
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	370 [label="370
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	454 -> 370 [tooltip=""]
-	370 [label="Node 370
-[]" fillcolor=white fontsize=12 style=filled]
-	16 [label="Node 16
-[]" fillcolor=white fontsize=12 style=filled]
+	370 [label="370
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	16 [label="16
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	370 -> 16 [tooltip=""]
-	16 [label="Node 16
-[]" fillcolor=white fontsize=12 style=filled]
-	151 [label="Node 151
-[]" fillcolor=white fontsize=12 style=filled]
+	16 [label="16
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	151 [label="151
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	16 -> 151 [tooltip=""]
-	370 [label="Node 370
-[]" fillcolor=white fontsize=12 style=filled]
-	334 [label="Node 334
-[]" fillcolor=white fontsize=12 style=filled]
+	370 [label="370
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	334 [label="334 
+ Puesto de comida
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	370 -> 334 [tooltip=""]
-	370 [label="Node 370
-[]" fillcolor=white fontsize=12 style=filled]
-	488 [label="Node 488
-[]" fillcolor=white fontsize=12 style=filled]
+	370 [label="370
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	488 [label="488 
+ Mensajería
+[gastar pista: TEH]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	370 -> 488 [tooltip=""]
-	370 [label="Node 370
-[]" fillcolor=white fontsize=12 style=filled]
-	306 [label="Node 306
-[]" fillcolor=white fontsize=12 style=filled]
+	370 [label="370
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	306 [label="306 
+ Tienda de música
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	370 -> 306 [tooltip=""]
-	370 [label="Node 370
-[]" fillcolor=white fontsize=12 style=filled]
-	29 [label="Node 29
-[]" fillcolor=white fontsize=12 style=filled]
+	370 [label="370
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	29 [label="29  
+ Papelería
+[gastar pista: PYR]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	370 -> 29 [tooltip=""]
-	16 [label="Node 16
-[]" fillcolor=white fontsize=12 style=filled]
-	36 [label="Node 36
-[]" fillcolor=white fontsize=12 style=filled]
+	16 [label="16
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	36 [label="36
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	16 -> 36 [tooltip=""]
-	370 [label="Node 370
-[]" fillcolor=white fontsize=12 style=filled]
-	571 [label="Node 571
-[]" fillcolor=white fontsize=12 style=filled]
+	370 [label="370
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	571 [label="571 
+ Carnicería
+[bitec 30 creditos]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	370 -> 571 [tooltip=""]
-	370 [label="Node 370
-[]" fillcolor=white fontsize=12 style=filled]
-	359 [label="Node 359
-[]" fillcolor=white fontsize=12 style=filled]
+	370 [label="370
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	359 [label="359
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	370 -> 359 [tooltip=""]
-	359 [label="Node 359
-[]" fillcolor=white fontsize=12 style=filled]
-	407 [label="Node 407
-[]" fillcolor=white fontsize=12 style=filled]
+	359 [label="359
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	407 [label="407 
+ Tienda de electrónica
+[comprar pistola térmica 100 creditos]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	359 -> 407 [tooltip=""]
-	370 [label="Node 370
-[]" fillcolor=white fontsize=12 style=filled]
-	388 [label="Node 388
-[]" fillcolor=white fontsize=12 style=filled]
+	370 [label="370
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	388 [label="388 
+ Comida
+[comida 20 creditos]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	370 -> 388 [tooltip=""]
-	370 [label="Node 370
-[]" fillcolor=white fontsize=12 style=filled]
-	183 [label="Node 183
-[]" fillcolor=white fontsize=12 style=filled]
+	370 [label="370
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	183 [label="183 
+ Museo
+[obtener baratija +50 creditos 
+ intuición obtener sable +2 cuerpo a cuerpo]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	370 -> 183 [tooltip=""]
-	16 [label="Node 16
-[]" fillcolor=white fontsize=12 style=filled]
+	16 [label="16
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	543 [label="Node 543
-[]" fillcolor=white fontsize=12 style=filled]
+[Obtener pista: NJA]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	16 -> 543 [tooltip=""]
-	370 [label="Node 370
-[]" fillcolor=white fontsize=12 style=filled]
+	370 [label="370
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	100 [label="100 
- centro de la ciudad
-[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+ Centro de la ciudad
+[]" fillcolor=lightyellow fontsize=46 height=2.0 style=filled width=2.5]
 	370 -> 100 [tooltip=""]
 	100 [label="100 
- centro de la ciudad
-[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
-	233 [label="Node 233
-[]" fillcolor=white fontsize=12 style=filled]
+ Centro de la ciudad
+[]" fillcolor=lightyellow fontsize=46 height=2.0 style=filled width=2.5]
+	233 [label="233
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	100 -> 233 [tooltip=""]
-	233 [label="Node 233
-[]" fillcolor=white fontsize=12 style=filled]
-	380 [label="Node 380
-[]" fillcolor=white fontsize=12 style=filled]
+	233 [label="233
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	380 [label="380
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	233 -> 380 [tooltip=""]
-	380 [label="Node 380
-[]" fillcolor=white fontsize=12 style=filled]
-	98 [label="Node 98
-[]" fillcolor=white fontsize=12 style=filled]
+	380 [label="380
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	98 [label="98
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	380 -> 98 [tooltip=""]
-	233 [label="Node 233
-[]" fillcolor=white fontsize=12 style=filled]
-	510 [label="Node 510
-[]" fillcolor=white fontsize=12 style=filled]
+	233 [label="233
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	510 [label="510 
+ Oficina Alcalde David Malony
+[gastar pista: MAL]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	233 -> 510 [tooltip=""]
-	233 [label="Node 233
-[]" fillcolor=white fontsize=12 style=filled]
+	233 [label="233
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	100 [label="100 
- centro de la ciudad
-[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+ Centro de la ciudad
+[]" fillcolor=lightyellow fontsize=46 height=2.0 style=filled width=2.5]
 	233 -> 100 [tooltip=""]
 	100 [label="100 
- centro de la ciudad
-[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
-	263 [label="Node 263
-[]" fillcolor=white fontsize=12 style=filled]
+ Centro de la ciudad
+[]" fillcolor=lightyellow fontsize=46 height=2.0 style=filled width=2.5]
+	263 [label="263 
+ Agresor: 2
+[obtener pista: temporal YUO]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	100 -> 263 [tooltip=""]
 	100 [label="100 
- centro de la ciudad
-[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
-	328 [label="Node 328
-[]" fillcolor=white fontsize=12 style=filled]
+ Centro de la ciudad
+[]" fillcolor=lightyellow fontsize=46 height=2.0 style=filled width=2.5]
+	328 [label="328
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	100 -> 328 [tooltip=""]
 	100 [label="100 
- centro de la ciudad
-[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
-	553 [label="Node 553
-[]" fillcolor=white fontsize=12 style=filled]
+ Centro de la ciudad
+[]" fillcolor=lightyellow fontsize=46 height=2.0 style=filled width=2.5]
+	553 [label="553
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	100 -> 553 [tooltip=""]
-	553 [label="Node 553
-[]" fillcolor=white fontsize=12 style=filled]
-	612 [label="Node 612
-[]" fillcolor=white fontsize=12 style=filled]
+	553 [label="553
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	612 [label="612
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	553 -> 612 [tooltip=""]
-	612 [label="Node 612
-[]" fillcolor=white fontsize=12 style=filled]
-	233 [label="Node 233
-[]" fillcolor=white fontsize=12 style=filled]
+	612 [label="612
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	233 [label="233
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	612 -> 233 [tooltip=""]
-	380 [label="Node 380
-[]" fillcolor=white fontsize=12 style=filled]
-	462 [label="462
-[]" fillcolor=white fontsize=12 style=filled]
+	380 [label="380
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	462 [label="462 
+[obtener pista: CHV]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	380 -> 462 [tooltip=""]
 	100 [label="100 
- centro de la ciudad
-[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
-	57 [label="Node 57
-[]" fillcolor=white fontsize=12 style=filled]
+ Centro de la ciudad
+[]" fillcolor=lightyellow fontsize=46 height=2.0 style=filled width=2.5]
+	57 [label="57
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	100 -> 57 [tooltip=""]
-	57 [label="Node 57
-[]" fillcolor=white fontsize=12 style=filled]
-	536 [label="Node 536
-[]" fillcolor=white fontsize=12 style=filled]
+	57 [label="57
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	536 [label="536
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	57 -> 536 [tooltip=""]
-	536 [label="Node 536
-[]" fillcolor=white fontsize=12 style=filled]
-	147 [label="Node 147
-[]" fillcolor=white fontsize=12 style=filled]
+	536 [label="536
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	147 [label="147
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	536 -> 147 [tooltip=""]
 	100 [label="100 
- centro de la ciudad
-[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
-	536 [label="Node 536
-[]" fillcolor=white fontsize=12 style=filled]
+ Centro de la ciudad
+[]" fillcolor=lightyellow fontsize=46 height=2.0 style=filled width=2.5]
+	536 [label="536
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	100 -> 536 [tooltip=""]
-	536 [label="Node 536
-[]" fillcolor=white fontsize=12 style=filled]
-	115 [label="Node 115
-[]" fillcolor=white fontsize=12 style=filled]
+	536 [label="536
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	115 [label="115
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	536 -> 115 [tooltip=""]
-	"1_31" [label="1 
+	"1_27" [label="1 
  Inicio
-[]" fillcolor=lightblue fontsize=12 style=filled]
-	"75_31" [label="75 
+[]" fillcolor=lightblue fontsize=36 height=1.2 style=filled width=2]
+	"75_27" [label="75 
  plaza de cronos
-[]" fillcolor=lightblue fontsize=12 style=filled]
-	"1_31" -> "75_31" [tooltip=""]
-	"75_31" [label="75 
+[]" fillcolor=lightblue fontsize=36 height=1.2 style=filled width=2]
+	"1_27" -> "75_27" [tooltip=""]
+	"75_27" [label="75 
  plaza de cronos
-[]" fillcolor=lightblue fontsize=12 style=filled]
+[]" fillcolor=lightblue fontsize=36 height=1.2 style=filled width=2]
 	300 [label="300 
- distrito sur
-[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
-	"75_31" -> 300 [tooltip=""]
+ Distrito Sur
+[]" fillcolor=lightyellow fontsize=46 height=2.0 style=filled width=2.5]
+	"75_27" -> 300 [tooltip=""]
 	300 [label="300 
- distrito sur
-[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
-	620 [label="Node 620
-[]" fillcolor=white fontsize=12 style=filled]
+ Distrito Sur
+[]" fillcolor=lightyellow fontsize=46 height=2.0 style=filled width=2.5]
+	620 [label="620
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	300 -> 620 [tooltip=""]
-	620 [label="Node 620
-[]" fillcolor=white fontsize=12 style=filled]
-	598 [label="Node 598
-[]" fillcolor=white fontsize=12 style=filled]
+	620 [label="620
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	598 [label="598 
+[gastar pista: NJA]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	620 -> 598 [tooltip=""]
-	598 [label="Node 598
-[]" fillcolor=white fontsize=12 style=filled]
-	594 [label="Node 594
-[]" fillcolor=white fontsize=12 style=filled]
-	598 -> 594 [tooltip=""]
-	594 [label="Node 594
-[]" fillcolor=white fontsize=12 style=filled]
-	340 [label="Node 340
-[]" fillcolor=white fontsize=12 style=filled]
-	594 -> 340 [tooltip=""]
-	340 [label="Node 340
-[]" fillcolor=white fontsize=12 style=filled]
-	285 [label="Node 285
-[]" fillcolor=white fontsize=12 style=filled]
+	598 [label="598 
+[gastar pista: NJA]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	594 [label="594
+[roba urna tukusawa 
+ (mente 7)]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	598 -> 594 [tooltip="gastar pista: NJA"]
+	594 [label="594
+[roba urna tukusawa 
+ (mente 7)]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	340 [label="340
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	594 -> 340 [tooltip="roba urna tukusawa 
+ (mente 7)"]
+	340 [label="340
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	285 [label="285
+[gastar pista: CSG]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	340 -> 285 [tooltip=""]
-	620 [label="Node 620
-[]" fillcolor=white fontsize=12 style=filled]
+	620 [label="620
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	300 [label="300 
- distrito sur
-[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+ Distrito Sur
+[]" fillcolor=lightyellow fontsize=46 height=2.0 style=filled width=2.5]
 	620 -> 300 [tooltip=""]
 	300 [label="300 
- distrito sur
-[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
-	162 [label="Node 162
-[]" fillcolor=white fontsize=12 style=filled]
+ Distrito Sur
+[]" fillcolor=lightyellow fontsize=46 height=2.0 style=filled width=2.5]
+	162 [label="162
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	300 -> 162 [tooltip=""]
-	162 [label="Node 162
-[]" fillcolor=white fontsize=12 style=filled]
-	127 [label="Node 127
-[]" fillcolor=white fontsize=12 style=filled]
+	162 [label="162
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	127 [label="127 
+ Agresor misterioso
+[obtener pista: AMM]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	162 -> 127 [tooltip=""]
-	127 [label="Node 127
-[]" fillcolor=white fontsize=12 style=filled]
-	46 [label="Node 46
-[]" fillcolor=white fontsize=12 style=filled]
-	127 -> 46 [tooltip=""]
+	127 [label="127 
+ Agresor misterioso
+[obtener pista: AMM]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	46 [label="46
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	127 -> 46 [tooltip="obtener pista: AMM"]
 	300 [label="300 
- distrito sur
-[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
-	112 [label="Node 112
-[]" fillcolor=white fontsize=12 style=filled]
+ Distrito Sur
+[]" fillcolor=lightyellow fontsize=46 height=2.0 style=filled width=2.5]
+	112 [label="112 
+ Hospital
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	300 -> 112 [tooltip=""]
-	112 [label="Node 112
-[]" fillcolor=white fontsize=12 style=filled]
-	443 [label="443
-[]" fillcolor=white fontsize=12 style=filled]
+	112 [label="112 
+ Hospital
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	443 [label="443 
+ Cura Mágica
+[+4 vida]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	112 -> 443 [tooltip=""]
-	112 [label="Node 112
-[]" fillcolor=white fontsize=12 style=filled]
+	112 [label="112 
+ Hospital
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	300 [label="300 
- distrito sur
-[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+ Distrito Sur
+[]" fillcolor=lightyellow fontsize=46 height=2.0 style=filled width=2.5]
 	112 -> 300 [tooltip=""]
 	300 [label="300 
- distrito sur
-[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
-	497 [label="Node 497
-[]" fillcolor=white fontsize=12 style=filled]
+ Distrito Sur
+[]" fillcolor=lightyellow fontsize=46 height=2.0 style=filled width=2.5]
+	497 [label="497
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	300 -> 497 [tooltip=""]
-	497 [label="Node 497
-[]" fillcolor=white fontsize=12 style=filled]
-	275 [label="Node 275
-[]" fillcolor=white fontsize=12 style=filled]
+	497 [label="497
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	275 [label="275
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	497 -> 275 [tooltip=""]
-	275 [label="Node 275
-[]" fillcolor=white fontsize=12 style=filled]
-	130 [label="Node 130
-[]" fillcolor=white fontsize=12 style=filled]
+	275 [label="275
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	130 [label="130
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	275 -> 130 [tooltip=""]
-	275 [label="Node 275
-[]" fillcolor=white fontsize=12 style=filled]
+	275 [label="275
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	300 [label="300 
- distrito sur
-[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+ Distrito Sur
+[]" fillcolor=lightyellow fontsize=46 height=2.0 style=filled width=2.5]
 	275 -> 300 [tooltip=""]
 	300 [label="300 
- distrito sur
-[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
-	298 [label="Node 298
-[]" fillcolor=white fontsize=12 style=filled]
+ Distrito Sur
+[]" fillcolor=lightyellow fontsize=46 height=2.0 style=filled width=2.5]
+	298 [label="298 
+ Agresor: Escopeta
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	300 -> 298 [tooltip=""]
 	300 [label="300 
- distrito sur
-[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
-	220 [label="Node 220
-[]" fillcolor=white fontsize=12 style=filled]
+ Distrito Sur
+[]" fillcolor=lightyellow fontsize=46 height=2.0 style=filled width=2.5]
+	220 [label="220 
+ Agencia de Autos
+[1 auto 400 creditos]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	300 -> 220 [tooltip=""]
 	300 [label="300 
- distrito sur
-[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
-	636 [label="Node 636
-[]" fillcolor=white fontsize=12 style=filled]
+ Distrito Sur
+[]" fillcolor=lightyellow fontsize=46 height=2.0 style=filled width=2.5]
+	636 [label="636
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	300 -> 636 [tooltip=""]
 	300 [label="300 
- distrito sur
-[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
-	545 [label="Node 545
-[]" fillcolor=white fontsize=12 style=filled]
+ Distrito Sur
+[]" fillcolor=lightyellow fontsize=46 height=2.0 style=filled width=2.5]
+	545 [label="545
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	300 -> 545 [tooltip=""]
-	497 [label="Node 497
-[]" fillcolor=white fontsize=12 style=filled]
-	245 [label="Node 245
-[]" fillcolor=white fontsize=12 style=filled]
+	497 [label="497
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	245 [label="245 
+ Bomberos
+[gastar pista: RAS]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	497 -> 245 [tooltip=""]
-	162 [label="Node 162
-[]" fillcolor=white fontsize=12 style=filled]
-	154 [label="Node 154
-[]" fillcolor=white fontsize=12 style=filled]
+	162 [label="162
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	154 [label="154
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	162 -> 154 [tooltip=""]
 	300 [label="300 
- distrito sur
-[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
-	"24_43" [label="24 
+ Distrito Sur
+[]" fillcolor=lightyellow fontsize=46 height=2.0 style=filled width=2.5]
+	"24_39" [label="24 
  salida
-[]" fillcolor=lightcoral fontsize=12 style=filled]
-	300 -> "24_43" [tooltip=""]
-	"24_43" [label="24 
+[]" fillcolor=lightcoral fontsize=36 height=1.2 style=filled width=2]
+	300 -> "24_39" [tooltip=""]
+	"24_39" [label="24 
  salida
-[]" fillcolor=lightcoral fontsize=12 style=filled]
-	dormir_43 [label="A Dormir
-[]" fillcolor=lightcoral fontsize=12 style=filled]
-	"24_43" -> dormir_43 [tooltip=""]
-	"1_44" [label="1 
+[]" fillcolor=lightcoral fontsize=36 height=1.2 style=filled width=2]
+	dormir_39 [label="A Dormir
+[]" fillcolor=lightcoral fontsize=36 height=1.2 style=filled width=2]
+	"24_39" -> dormir_39 [tooltip=""]
+	"1_40" [label="1 
  Inicio
-[]" fillcolor=lightblue fontsize=12 style=filled]
-	"75_44" [label="75 
+[]" fillcolor=lightblue fontsize=36 height=1.2 style=filled width=2]
+	"75_40" [label="75 
  plaza de cronos
-[]" fillcolor=lightblue fontsize=12 style=filled]
-	"1_44" -> "75_44" [tooltip=""]
-	"75_44" [label="75 
+[]" fillcolor=lightblue fontsize=36 height=1.2 style=filled width=2]
+	"1_40" -> "75_40" [tooltip=""]
+	"75_40" [label="75 
  plaza de cronos
-[]" fillcolor=lightblue fontsize=12 style=filled]
+[]" fillcolor=lightblue fontsize=36 height=1.2 style=filled width=2]
 	150 [label="150 
- arrabales occidente
-[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
-	"75_44" -> 150 [tooltip=""]
+ Arrabales Occidente
+[]" fillcolor=lightyellow fontsize=46 height=2.0 style=filled width=2.5]
+	"75_40" -> 150 [tooltip=""]
 	150 [label="150 
- arrabales occidente
-[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
-	62 [label="Node 62
-[]" fillcolor=white fontsize=12 style=filled]
+ Arrabales Occidente
+[]" fillcolor=lightyellow fontsize=46 height=2.0 style=filled width=2.5]
+	62 [label="62
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	150 -> 62 [tooltip=""]
-	62 [label="Node 62
-[]" fillcolor=white fontsize=12 style=filled]
-	120 [label="Node 120
-[]" fillcolor=white fontsize=12 style=filled]
+	62 [label="62
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	120 [label="120
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	62 -> 120 [tooltip=""]
-	120 [label="Node 120
-[]" fillcolor=white fontsize=12 style=filled]
-	333 [label="Node 333
-[]" fillcolor=white fontsize=12 style=filled]
+	120 [label="120
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	333 [label="333
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	120 -> 333 [tooltip=""]
-	333 [label="Node 333
-[]" fillcolor=white fontsize=12 style=filled]
-	402 [label="Node 402
-[]" fillcolor=white fontsize=12 style=filled]
+	333 [label="333
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	402 [label="402
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	333 -> 402 [tooltip=""]
-	120 [label="Node 120
-[]" fillcolor=white fontsize=12 style=filled]
-	396 [label="Node 396
-[]" fillcolor=white fontsize=12 style=filled]
+	120 [label="120
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	396 [label="396
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	120 -> 396 [tooltip=""]
-	120 [label="Node 120
-[]" fillcolor=white fontsize=12 style=filled]
+	120 [label="120
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	150 [label="150 
- arrabales occidente
-[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+ Arrabales Occidente
+[]" fillcolor=lightyellow fontsize=46 height=2.0 style=filled width=2.5]
 	120 -> 150 [tooltip=""]
-	333 [label="Node 333
-[]" fillcolor=white fontsize=12 style=filled]
-	352 [label="Node 352
-[]" fillcolor=white fontsize=12 style=filled]
+	333 [label="333
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	352 [label="352
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	333 -> 352 [tooltip=""]
-	333 [label="Node 333
-[]" fillcolor=white fontsize=12 style=filled]
-	584 [label="Node 584
-[]" fillcolor=white fontsize=12 style=filled]
+	333 [label="333
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	584 [label="584
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	333 -> 584 [tooltip=""]
 	150 [label="150 
- arrabales occidente
-[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
-	442 [label="Node 442
-[]" fillcolor=white fontsize=12 style=filled]
+ Arrabales Occidente
+[]" fillcolor=lightyellow fontsize=46 height=2.0 style=filled width=2.5]
+	442 [label="442
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	150 -> 442 [tooltip=""]
 	150 [label="150 
- arrabales occidente
-[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
-	307 [label="Node 307
-[]" fillcolor=white fontsize=12 style=filled]
+ Arrabales Occidente
+[]" fillcolor=lightyellow fontsize=46 height=2.0 style=filled width=2.5]
+	307 [label="307
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	150 -> 307 [tooltip=""]
-	307 [label="Node 307
-[]" fillcolor=white fontsize=12 style=filled]
-	66 [label="Node 66
-[]" fillcolor=white fontsize=12 style=filled]
+	307 [label="307
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	66 [label="66 
+ Obra Construcción
+[a las 11 am salvar al dentista ladrillazo]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	307 -> 66 [tooltip=""]
-	66 [label="Node 66
-[]" fillcolor=white fontsize=12 style=filled]
-	105 [label="Node 105
-[]" fillcolor=white fontsize=12 style=filled]
-	66 -> 105 [tooltip=""]
-	66 [label="Node 66
-[]" fillcolor=white fontsize=12 style=filled]
-	364 [label="Node 364
-[]" fillcolor=white fontsize=12 style=filled]
-	66 -> 364 [tooltip=""]
-	66 [label="Node 66
-[]" fillcolor=white fontsize=12 style=filled]
-	555 [label="Node 555
-[]" fillcolor=white fontsize=12 style=filled]
-	66 -> 555 [tooltip=""]
-	555 [label="Node 555
-[]" fillcolor=white fontsize=12 style=filled]
-	223 [label="Node 223
-[]" fillcolor=white fontsize=12 style=filled]
+	66 [label="66 
+ Obra Construcción
+[a las 11 am salvar al dentista ladrillazo]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	105 [label="105 
+ Zona Industrial 
+ carro desguazado
+[obtener +50 creditos gratis]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	66 -> 105 [tooltip="a las 11 am salvar al dentista ladrillazo"]
+	66 [label="66 
+ Obra Construcción
+[a las 11 am salvar al dentista ladrillazo]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	364 [label="364
+[gastar llave de hierro]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	66 -> 364 [tooltip="a las 11 am salvar al dentista ladrillazo"]
+	66 [label="66 
+ Obra Construcción
+[a las 11 am salvar al dentista ladrillazo]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	555 [label="555
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	66 -> 555 [tooltip="a las 11 am salvar al dentista ladrillazo"]
+	555 [label="555
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	223 [label="223 
+ Almacen de la Dr. Watts
+[taques de gas: risa/placer/sueño]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	555 -> 223 [tooltip=""]
-	223 [label="Node 223
-[]" fillcolor=white fontsize=12 style=filled]
-	315 [label="Node 315
-[]" fillcolor=white fontsize=12 style=filled]
-	223 -> 315 [tooltip=""]
-	66 [label="Node 66
-[]" fillcolor=white fontsize=12 style=filled]
-	110 [label="Node 110
-[]" fillcolor=white fontsize=12 style=filled]
-	66 -> 110 [tooltip=""]
-	110 [label="Node 110
-[]" fillcolor=white fontsize=12 style=filled]
-	232 [label="Node 232
-[]" fillcolor=white fontsize=12 style=filled]
+	223 [label="223 
+ Almacen de la Dr. Watts
+[taques de gas: risa/placer/sueño]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	315 [label="315
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	223 -> 315 [tooltip="taques de gas: risa/placer/sueño"]
+	66 [label="66 
+ Obra Construcción
+[a las 11 am salvar al dentista ladrillazo]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	110 [label="110
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	66 -> 110 [tooltip="a las 11 am salvar al dentista ladrillazo"]
+	110 [label="110
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	232 [label="232
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	110 -> 232 [tooltip=""]
-	66 [label="Node 66
-[]" fillcolor=white fontsize=12 style=filled]
+	66 [label="66 
+ Obra Construcción
+[a las 11 am salvar al dentista ladrillazo]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	150 [label="150 
- arrabales occidente
-[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
-	66 -> 150 [tooltip=""]
+ Arrabales Occidente
+[]" fillcolor=lightyellow fontsize=46 height=2.0 style=filled width=2.5]
+	66 -> 150 [tooltip="a las 11 am salvar al dentista ladrillazo"]
 	150 [label="150 
- arrabales occidente
-[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
-	184 [label="Node 184
-[]" fillcolor=white fontsize=12 style=filled]
+ Arrabales Occidente
+[]" fillcolor=lightyellow fontsize=46 height=2.0 style=filled width=2.5]
+	184 [label="184
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	150 -> 184 [tooltip=""]
 	150 [label="150 
- arrabales occidente
-[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
-	"24_56" [label="24 
+ Arrabales Occidente
+[]" fillcolor=lightyellow fontsize=46 height=2.0 style=filled width=2.5]
+	"24_52" [label="24 
  salida
-[]" fillcolor=lightcoral fontsize=12 style=filled]
-	150 -> "24_56" [tooltip=""]
-	"24_56" [label="24 
+[]" fillcolor=lightcoral fontsize=36 height=1.2 style=filled width=2]
+	150 -> "24_52" [tooltip=""]
+	"24_52" [label="24 
  salida
-[]" fillcolor=lightcoral fontsize=12 style=filled]
-	dormir_56 [label="A Dormir
-[]" fillcolor=lightcoral fontsize=12 style=filled]
-	"24_56" -> dormir_56 [tooltip=""]
-	"1_57" [label="1 
+[]" fillcolor=lightcoral fontsize=36 height=1.2 style=filled width=2]
+	dormir_52 [label="A Dormir
+[]" fillcolor=lightcoral fontsize=36 height=1.2 style=filled width=2]
+	"24_52" -> dormir_52 [tooltip=""]
+	"1_53" [label="1 
  Inicio
-[]" fillcolor=lightblue fontsize=12 style=filled]
-	"75_57" [label="75 
+[]" fillcolor=lightblue fontsize=36 height=1.2 style=filled width=2]
+	"75_53" [label="75 
  plaza de cronos
-[]" fillcolor=lightblue fontsize=12 style=filled]
-	"1_57" -> "75_57" [tooltip=""]
-	"75_57" [label="75 
+[]" fillcolor=lightblue fontsize=36 height=1.2 style=filled width=2]
+	"1_53" -> "75_53" [tooltip=""]
+	"75_53" [label="75 
  plaza de cronos
-[]" fillcolor=lightblue fontsize=12 style=filled]
+[]" fillcolor=lightblue fontsize=36 height=1.2 style=filled width=2]
 	150 [label="150 
- arrabales occidente
-[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
-	"75_57" -> 150 [tooltip=""]
-	307 [label="Node 307
-[]" fillcolor=white fontsize=12 style=filled]
+ Arrabales Occidente
+[]" fillcolor=lightyellow fontsize=46 height=2.0 style=filled width=2.5]
+	"75_53" -> 150 [tooltip=""]
+	307 [label="307
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	244 [label="244
-[]" fillcolor=white fontsize=12 style=filled]
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	307 -> 244 [tooltip=""]
 	244 [label="244
-[]" fillcolor=white fontsize=12 style=filled]
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	413 [label="413
-[]" fillcolor=white fontsize=12 style=filled]
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	244 -> 413 [tooltip=""]
 	413 [label="413
-[]" fillcolor=white fontsize=12 style=filled]
-	66 [label="Node 66
-[]" fillcolor=white fontsize=12 style=filled]
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	66 [label="66 
+ Obra Construcción
+[a las 11 am salvar al dentista ladrillazo]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	413 -> 66 [tooltip=""]
-	555 [label="Node 555
-[]" fillcolor=white fontsize=12 style=filled]
+	555 [label="555
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	476 [label="476
-[]" fillcolor=white fontsize=12 style=filled]
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	555 -> 476 [tooltip=""]
-	110 [label="Node 110
-[]" fillcolor=white fontsize=12 style=filled]
+	110 [label="110
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	270 [label="270
-[]" fillcolor=white fontsize=12 style=filled]
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	110 -> 270 [tooltip=""]
 	270 [label="270
-[]" fillcolor=white fontsize=12 style=filled]
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	637 [label="637
-[]" fillcolor=white fontsize=12 style=filled]
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	270 -> 637 [tooltip=""]
-	110 [label="Node 110
-[]" fillcolor=white fontsize=12 style=filled]
+	110 [label="110
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	76 [label="76
-[]" fillcolor=white fontsize=12 style=filled]
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	110 -> 76 [tooltip=""]
-	110 [label="Node 110
-[]" fillcolor=white fontsize=12 style=filled]
+	110 [label="110
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	582 [label="582
-[]" fillcolor=white fontsize=12 style=filled]
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	110 -> 582 [tooltip=""]
 	150 [label="150 
- arrabales occidente
-[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
-	498 [label="Node 498
-[]" fillcolor=white fontsize=12 style=filled]
+ Arrabales Occidente
+[]" fillcolor=lightyellow fontsize=46 height=2.0 style=filled width=2.5]
+	498 [label="498 
+ Tienda de Abarrotes
+[matarratas 
+ herbicida 
+ llave inglesa 
+ linterna]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	150 -> 498 [tooltip=""]
 	150 [label="150 
- arrabales occidente
-[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+ Arrabales Occidente
+[]" fillcolor=lightyellow fontsize=46 height=2.0 style=filled width=2.5]
 	200 [label="200 
- distrito norte
-[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
+ Distrito Norte
+[]" fillcolor=lightyellow fontsize=46 height=2.0 style=filled width=2.5]
 	150 -> 200 [tooltip=""]
 	200 [label="200 
- distrito norte
-[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
-	538 [label="Node 538
-[]" fillcolor=white fontsize=12 style=filled]
+ Distrito Norte
+[]" fillcolor=lightyellow fontsize=46 height=2.0 style=filled width=2.5]
+	538 [label="538
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	200 -> 538 [tooltip=""]
 	200 [label="200 
- distrito norte
-[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
-	399 [label="Node 399
-[]" fillcolor=white fontsize=12 style=filled]
+ Distrito Norte
+[]" fillcolor=lightyellow fontsize=46 height=2.0 style=filled width=2.5]
+	399 [label="399
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	200 -> 399 [tooltip=""]
-	399 [label="Node 399
-[]" fillcolor=white fontsize=12 style=filled]
-	607 [label="Node 607
-[]" fillcolor=white fontsize=12 style=filled]
+	399 [label="399
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	607 [label="607 
+ Departamentos lujosos
+[sobornar al conserje 150 creditos]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	399 -> 607 [tooltip=""]
-	607 [label="Node 607
-[]" fillcolor=white fontsize=12 style=filled]
-	534 [label="Node 534
-[]" fillcolor=white fontsize=12 style=filled]
-	607 -> 534 [tooltip=""]
+	607 [label="607 
+ Departamentos lujosos
+[sobornar al conserje 150 creditos]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	534 [label="534 
+ Agresor: Conserje
+[ cuerpo 6/ vida 3]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	607 -> 534 [tooltip="sobornar al conserje 150 creditos"]
 	200 [label="200 
- distrito norte
-[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
-	525 [label="Node 525
-[]" fillcolor=white fontsize=12 style=filled]
+ Distrito Norte
+[]" fillcolor=lightyellow fontsize=46 height=2.0 style=filled width=2.5]
+	525 [label="525
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	200 -> 525 [tooltip=""]
-	525 [label="Node 525
-[]" fillcolor=white fontsize=12 style=filled]
-	374 [label="Node 374
-[]" fillcolor=white fontsize=12 style=filled]
+	525 [label="525
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	374 [label="374 
+ Catedral
+[+1 vida gratis]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	525 -> 374 [tooltip=""]
 	200 [label="200 
- distrito norte
-[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
-	550 [label="Node 550
-[]" fillcolor=white fontsize=12 style=filled]
+ Distrito Norte
+[]" fillcolor=lightyellow fontsize=46 height=2.0 style=filled width=2.5]
+	550 [label="550
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	200 -> 550 [tooltip=""]
 	200 [label="200 
- distrito norte
-[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
-	133 [label="Node 133
-[]" fillcolor=white fontsize=12 style=filled]
+ Distrito Norte
+[]" fillcolor=lightyellow fontsize=46 height=2.0 style=filled width=2.5]
+	133 [label="133 
+ Comisaría
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	200 -> 133 [tooltip=""]
-	133 [label="Node 133
-[]" fillcolor=white fontsize=12 style=filled]
-	156 [label="Node 156
-[]" fillcolor=white fontsize=12 style=filled]
+	133 [label="133 
+ Comisaría
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
+	156 [label="156
+[]" fillcolor=white fontsize=36 height=1.2 style=filled width=2]
 	133 -> 156 [tooltip=""]
 	200 [label="200 
- distrito norte
-[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
-	"24_70" [label="24 
+ Distrito Norte
+[]" fillcolor=lightyellow fontsize=46 height=2.0 style=filled width=2.5]
+	"24_66" [label="24 
  salida
-[]" fillcolor=lightcoral fontsize=12 style=filled]
-	200 -> "24_70" [tooltip=""]
-	"24_70" [label="24 
+[]" fillcolor=lightcoral fontsize=36 height=1.2 style=filled width=2]
+	200 -> "24_66" [tooltip=""]
+	"24_66" [label="24 
  salida
-[]" fillcolor=lightcoral fontsize=12 style=filled]
-	dormir_70 [label="A Dormir
-[]" fillcolor=lightcoral fontsize=12 style=filled]
-	"24_70" -> dormir_70 [tooltip=""]
-	"1_71" [label="1 
+[]" fillcolor=lightcoral fontsize=36 height=1.2 style=filled width=2]
+	dormir_66 [label="A Dormir
+[]" fillcolor=lightcoral fontsize=36 height=1.2 style=filled width=2]
+	"24_66" -> dormir_66 [tooltip=""]
+	"1_67" [label="1 
  Inicio
-[]" fillcolor=lightblue fontsize=12 style=filled]
-	"75_71" [label="75 
+[]" fillcolor=lightblue fontsize=36 height=1.2 style=filled width=2]
+	"75_67" [label="75 
  plaza de cronos
-[]" fillcolor=lightblue fontsize=12 style=filled]
-	"1_71" -> "75_71" [tooltip=""]
-	"75_71" [label="75 
+[]" fillcolor=lightblue fontsize=36 height=1.2 style=filled width=2]
+	"1_67" -> "75_67" [tooltip=""]
+	"75_67" [label="75 
  plaza de cronos
-[]" fillcolor=lightblue fontsize=12 style=filled]
+[]" fillcolor=lightblue fontsize=36 height=1.2 style=filled width=2]
 	200 [label="200 
- distrito norte
-[]" fillcolor=lightyellow fontsize=36 height=1.5 style=filled width=1.5]
-	"75_71" -> 200 [tooltip=""]
+ Distrito Norte
+[]" fillcolor=lightyellow fontsize=46 height=2.0 style=filled width=2.5]
+	"75_67" -> 200 [tooltip=""]
 }
